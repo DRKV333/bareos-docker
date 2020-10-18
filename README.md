@@ -1,0 +1,1 @@
+This is a work in progress project. The goal is to set up an easy to deploy, containerized distribution of [Bareos](https://github.com/bareos/bareos), the open source data backup software.

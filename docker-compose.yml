@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  dir:
+    image: bareos-dir
+    build:
+      context: .
+      target: dir
+  sd:
+    image: bareos-sd
+    build: 
+      context: .
+      target: sd
+  webui:
+    image: bareos-webui
+    build:
+      context: .
+      target: webui
+  bconsole:
+    image: bareos-bconsole
+    build:
+      context: .
+      target: bconsole
