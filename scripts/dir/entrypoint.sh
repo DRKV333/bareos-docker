@@ -44,7 +44,7 @@ if [ -z "$CONF_NO_ENV" ]; then
         "(Pool:PL)+{}" \
         "(Catalog:CAT){}" \
         "(Console:CON)+{}" \
-        "(User:USR){}+" \
+        "(User:USR)+{}" \
         "(Profile:PROF)+{}" \
         "(Counter:CNT)+{}" \
         "(Messages:MSG)+{}" \
